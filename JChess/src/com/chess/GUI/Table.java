@@ -207,7 +207,7 @@ public class Table {
                 for (final Move move : pieceLegalMoves(board)) {
                     if (move.getDestinationCoordinate() == this.tileID) {
                         try {
-                            add(new JLabel((new ImageIcon((ImageIO.read(new File("Images/Other/green_dot.png")))))));
+                            add(new JLabel((new ImageIcon((ImageIO.read(new File("Images/Other/red_dot_legal.png")))))));
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
